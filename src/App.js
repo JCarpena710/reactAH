@@ -17,8 +17,6 @@ import solicitudedit from "./componentes/solicitud-edit";
 
 import updatesolicitud from "./componentes/update-solicitud";
 
-
-
 import changepassword from "./componentes/change-password";
 import contact from "./componentes/contact";
 import faq from "./componentes/faq";

@@ -199,7 +199,7 @@ class usersolicitud extends React.Component {
 
                                                         <div className="form-group">
                                                             <label>Titulo de tu solicitud:</label>
-                                                            <input name="titulo" type="text" className="form-control" value={this.state.titulo} onChange={this.cambioTitulo} ></input>
+                                                            <input name="titulo" type="text" className="form-control" value={this.state.titulo} onChange={this.cambioTitulo} required ></input>
                                                         </div>
 
                                                         <div className="form-group">
@@ -274,7 +274,7 @@ class usersolicitud extends React.Component {
                                                         <div className="col-sm-12">
                                                             <div className="form-group">
                                                                 <label>Descripción de la solicitud :</label>
-                                                                <textarea name="descripcion" className="form-control" value={this.state.descripcion} onChange={this.cambioDescripcion} ></textarea>
+                                                                <textarea name="descripcion" className="form-control" value={this.state.descripcion} onChange={this.cambioDescripcion} required></textarea>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -289,19 +289,19 @@ class usersolicitud extends React.Component {
                                                         <div className="col-sm-3">
                                                             <div className="form-group">
                                                                 <label>Superficie :</label>
-                                                                <input name="superficie" type="number" className="form-control" min="60" max="130" value={this.state.superficie} onChange={this.cambioSuperficie} />
+                                                                <input name="superficie" type="number" className="form-control" min="60" max="200" value={this.state.superficie} onChange={this.cambioSuperficie} />
                                                             </div>
                                                         </div>
                                                         <div className="col-sm-3">
                                                             <div className="form-group">
                                                                 <label>Habitaciones :</label>
-                                                                <input name="habitaciones" type="number" className="form-control" min="1" max="5" value={this.state.habitaciones} onChange={this.cambioHabitaciones} />
+                                                                <input name="habitaciones" type="number" className="form-control" min="1" max="6" value={this.state.habitaciones} onChange={this.cambioHabitaciones} />
                                                             </div>
                                                         </div>
                                                         <div className="col-sm-3">
                                                             <div className="form-group">
                                                                 <label>Baños  :</label>
-                                                                <input name="banos" type="number" className="form-control" min="1" max="3" value={this.state.banos} onChange={this.cambioBanos} />
+                                                                <input name="banos" type="number" className="form-control" min="1" max="4" value={this.state.banos} onChange={this.cambioBanos} />
                                                             </div>
                                                         </div>
                                                         <div className="col-sm-3">
